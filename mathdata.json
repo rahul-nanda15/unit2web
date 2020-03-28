@@ -1,0 +1,1203 @@
+data = [
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Afghanistan",
+    "Time_Detail": 2016,
+    "Value": 51.5,
+    "Schooling": "GRAD23"
+  },
+{
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Half",
+    "Time_Detail": 2016,
+    "Value": 50,
+    "Schooling": "GRAD23"
+  },
+    
+ {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Perfect",
+    "Time_Detail": 2016,
+    "Value": 100,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Albania",
+    "Time_Detail": 2012,
+    "Value": 39.33503,
+    "Schooling": "LOWSEC"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Algeria",
+    "Time_Detail": 2007,
+    "Value": 40.93487,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Anguilla",
+    "Time_Detail": 2015,
+    "Value": 37.9,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Antigua and Barbuda",
+    "Time_Detail": 2015,
+    "Value": 45.5,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Argentina",
+    "Time_Detail": 2016,
+    "Value": 62.9,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Armenia",
+    "Time_Detail": 2011,
+    "Value": 76.3833,
+    "Schooling": "LOWSEC"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Australia",
+    "Time_Detail": 2017,
+    "Value": 95.5,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Austria",
+    "Time_Detail": 2017,
+    "Value": 87,
+    "Schooling": "LOWSEC"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Azerbaijan",
+    "Time_Detail": 2009,
+    "Value": 54.72519,
+    "Schooling": "LOWSEC"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Bahrain",
+    "Time_Detail": 2015,
+    "Value": 72.4767,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Bangladesh",
+    "Time_Detail": 2015,
+    "Value": 39,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Barbados",
+    "Time_Detail": 2016,
+    "Value": 60,
+    "Schooling": "PRIMAR"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Belgium",
+    "Time_Detail": 2015,
+    "Value": 79.93734,
+    "Schooling": "LOWSEC"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Benin",
+    "Time_Detail": 2014,
+    "Value": 33.58194,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Bhutan",
+    "Time_Detail": 2013,
+    "Value": 50.63,
+    "Schooling": "LOWSEC"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Bosnia and Herzegovina",
+    "Time_Detail": 2007,
+    "Value": 76.90018,
+    "Schooling": "LOWSEC"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Botswana",
+    "Time_Detail": 2011,
+    "Value": 60.65287,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Brazil",
+    "Time_Detail": 2016,
+    "Value": 77.01,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Bulgaria",
+    "Time_Detail": 2015,
+    "Value": 57.92654,
+    "Schooling": "LOWSEC"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Burkina Faso",
+    "Time_Detail": 2014,
+    "Value": 59.23316,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Burundi",
+    "Time_Detail": 2014,
+    "Value": 96.66259,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Cambodia",
+    "Time_Detail": 2017,
+    "Value": 17,
+    "Schooling": "LOWSEC"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Cameroon",
+    "Time_Detail": 2014,
+    "Value": 55.3414,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Canada",
+    "Time_Detail": 2015,
+    "Value": 85.63728,
+    "Schooling": "LOWSEC"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Cayman Islands",
+    "Time_Detail": 2016,
+    "Value": 52,
+    "Schooling": "PRIMAR"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Chad",
+    "Time_Detail": 2014,
+    "Value": 47.981,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Chile",
+    "Time_Detail": 2017,
+    "Value": 63.4,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "China",
+    "Time_Detail": 2015,
+    "Value": 84.6,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "China, Hong Kong Special Administrative Region",
+    "Time_Detail": 2015,
+    "Value": 99.78654,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "China, Macao Special Administrative Region",
+    "Time_Detail": 2015,
+    "Value": 93.35388,
+    "Schooling": "LOWSEC"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Colombia",
+    "Time_Detail": 2017,
+    "Value": 82,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Comoros",
+    "Time_Detail": 2007,
+    "Value": 69.92497,
+    "Schooling": "PRIMAR"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Congo",
+    "Time_Detail": 2014,
+    "Value": 70.87451,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Costa Rica",
+    "Time_Detail": 2013,
+    "Value": 84.05845,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Côte d'Ivoire",
+    "Time_Detail": 2014,
+    "Value": 33.7803,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Croatia",
+    "Time_Detail": 2015,
+    "Value": 67.96101,
+    "Schooling": "LOWSEC"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Cuba",
+    "Time_Detail": 2006,
+    "Value": 95.38183,
+    "Schooling": "PRIMAR"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Cyprus",
+    "Time_Detail": 2015,
+    "Value": 92.95813,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Czechia",
+    "Time_Detail": 2015,
+    "Value": 96.01225,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Democratic People's Republic of Korea",
+    "Time_Detail": 2017,
+    "Value": 83.4,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Dominica",
+    "Time_Detail": 2015,
+    "Value": 50,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Dominican Republic",
+    "Time_Detail": 2013,
+    "Value": 27.88731,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Ecuador",
+    "Time_Detail": 2016,
+    "Value": 78.4,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Egypt",
+    "Time_Detail": 2015,
+    "Value": 47.18238,
+    "Schooling": "LOWSEC"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "El Salvador",
+    "Time_Detail": 2007,
+    "Value": 23.07486,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Estonia",
+    "Time_Detail": 2015,
+    "Value": 88.78234,
+    "Schooling": "LOWSEC"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Eswatini",
+    "Time_Detail": 2007,
+    "Value": 91.41244,
+    "Schooling": "PRIMAR"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Finland",
+    "Time_Detail": 2015,
+    "Value": 97.13669,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "France",
+    "Time_Detail": 2015,
+    "Value": 87.4437,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Gabon",
+    "Time_Detail": 2006,
+    "Value": 90.23682,
+    "Schooling": "PRIMAR"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Gambia",
+    "Time_Detail": 2010,
+    "Value": 31.1,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Georgia",
+    "Time_Detail": 2015,
+    "Value": 78.39637,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Germany",
+    "Time_Detail": 2015,
+    "Value": 82.80903,
+    "Schooling": "LOWSEC"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Ghana",
+    "Time_Detail": 2016,
+    "Value": 55,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Greece",
+    "Time_Detail": 2015,
+    "Value": 64.24347,
+    "Schooling": "LOWSEC"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Grenada",
+    "Time_Detail": 2015,
+    "Value": 43,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Guatemala",
+    "Time_Detail": 2014,
+    "Value": 40.5,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Honduras",
+    "Time_Detail": 2016,
+    "Value": 92,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Hungary",
+    "Time_Detail": 2015,
+    "Value": 88.34078,
+    "Schooling": "LOWSEC"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Iceland",
+    "Time_Detail": 2015,
+    "Value": 76.38493,
+    "Schooling": "LOWSEC"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "India",
+    "Time_Detail": 2016,
+    "Value": 27.6,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Indonesia",
+    "Time_Detail": 2015,
+    "Value": 48.5391,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Iran (Islamic Republic of)",
+    "Time_Detail": 2015,
+    "Value": 65.17138,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Ireland",
+    "Time_Detail": 2016,
+    "Value": 96.96339,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Israel",
+    "Time_Detail": 2015,
+    "Value": 67.8728,
+    "Schooling": "LOWSEC"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Italy",
+    "Time_Detail": 2015,
+    "Value": 92.56607,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Jamaica",
+    "Time_Detail": 2015,
+    "Value": 14,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Jordan",
+    "Time_Detail": 2015,
+    "Value": 49.97825,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Kazakhstan",
+    "Time_Detail": 2015,
+    "Value": 90.82468,
+    "Schooling": "LOWSEC"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Kenya",
+    "Time_Detail": 2016,
+    "Value": 71.1,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Kuwait",
+    "Time_Detail": 2015,
+    "Value": 32.915,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Kyrgyzstan",
+    "Time_Detail": 2009,
+    "Value": 13.36897,
+    "Schooling": "LOWSEC"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Lao People's Democratic Republic",
+    "Time_Detail": 2014,
+    "Value": 46.37,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Latvia",
+    "Time_Detail": 2007,
+    "Value": 96.44951,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Lebanon",
+    "Time_Detail": 2015,
+    "Value": 70.53906,
+    "Schooling": "LOWSEC"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Lesotho",
+    "Time_Detail": 2007,
+    "Value": 58.19287,
+    "Schooling": "PRIMAR"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Liechtenstein",
+    "Time_Detail": 2012,
+    "Value": 85.92207,
+    "Schooling": "LOWSEC"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Lithuania",
+    "Time_Detail": 2015,
+    "Value": 74.59097,
+    "Schooling": "LOWSEC"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Luxembourg",
+    "Time_Detail": 2015,
+    "Value": 74.18055,
+    "Schooling": "LOWSEC"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Madagascar",
+    "Time_Detail": 2006,
+    "Value": 94.00566,
+    "Schooling": "PRIMAR"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Malawi",
+    "Time_Detail": 2012,
+    "Value": 51,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Malaysia",
+    "Time_Detail": 2017,
+    "Value": 70.9708,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Mali",
+    "Time_Detail": 2016,
+    "Value": 2.6,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Malta",
+    "Time_Detail": 2011,
+    "Value": 86.93229,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Mauritania",
+    "Time_Detail": 2003,
+    "Value": 37.60913,
+    "Schooling": "PRIMAR"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Mauritius",
+    "Time_Detail": 2015,
+    "Value": 41.5,
+    "Schooling": "LOWSEC"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Mexico",
+    "Time_Detail": 2013,
+    "Value": 77.58298,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Mongolia",
+    "Time_Detail": 2007,
+    "Value": 66.7365,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Montenegro",
+    "Time_Detail": 2015,
+    "Value": 48.10564,
+    "Schooling": "LOWSEC"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Montserrat",
+    "Time_Detail": 2015,
+    "Value": 54,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Morocco",
+    "Time_Detail": 2015,
+    "Value": 40.56423,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Mozambique",
+    "Time_Detail": 2007,
+    "Value": 67.27356,
+    "Schooling": "PRIMAR"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Namibia",
+    "Time_Detail": 2007,
+    "Value": 52.31012,
+    "Schooling": "PRIMAR"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Netherlands",
+    "Time_Detail": 2015,
+    "Value": 98.81086,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "New Zealand",
+    "Time_Detail": 2015,
+    "Value": 84.47975,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Nicaragua",
+    "Time_Detail": 2013,
+    "Value": 44.52815,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Niger",
+    "Time_Detail": 2014,
+    "Value": 27.7825,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Nigeria",
+    "Time_Detail": 2011,
+    "Value": 28.3,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "North Macedonia",
+    "Time_Detail": 2015,
+    "Value": 29.77354,
+    "Schooling": "LOWSEC"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Norway",
+    "Time_Detail": 2015,
+    "Value": 97.97319,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Oman",
+    "Time_Detail": 2015,
+    "Value": 60.83859,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Pakistan",
+    "Time_Detail": 2016,
+    "Value": 14.5,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Panama",
+    "Time_Detail": 2013,
+    "Value": 54.48387,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Paraguay",
+    "Time_Detail": 2015,
+    "Value": 72,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Peru",
+    "Time_Detail": 2016,
+    "Value": 71.4,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Philippines",
+    "Time_Detail": 2003,
+    "Value": 34.03681,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Poland",
+    "Time_Detail": 2015,
+    "Value": 96.17991,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Portugal",
+    "Time_Detail": 2015,
+    "Value": 97.17016,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Puerto Rico",
+    "Time_Detail": 2015,
+    "Value": 27.40548,
+    "Schooling": "LOWSEC"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Qatar",
+    "Time_Detail": 2015,
+    "Value": 64.35917,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Republic of Korea",
+    "Time_Detail": 2015,
+    "Value": 99.65868,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Republic of Moldova",
+    "Time_Detail": 2015,
+    "Value": 49.73857,
+    "Schooling": "LOWSEC"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Romania",
+    "Time_Detail": 2011,
+    "Value": 78.77295,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Russian Federation",
+    "Time_Detail": 2015,
+    "Value": 81.06867,
+    "Schooling": "LOWSEC"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Saint Lucia",
+    "Time_Detail": 2015,
+    "Value": 62,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Sao Tome and Principe",
+    "Time_Detail": 2011,
+    "Value": 100,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Saudi Arabia",
+    "Time_Detail": 2015,
+    "Value": 43.26762,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Senegal",
+    "Time_Detail": 2014,
+    "Value": 62.32727,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Serbia",
+    "Time_Detail": 2012,
+    "Value": 61.0901,
+    "Schooling": "LOWSEC"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Seychelles",
+    "Time_Detail": 2016,
+    "Value": 79,
+    "Schooling": "LOWSEC"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Singapore",
+    "Time_Detail": 2015,
+    "Value": 98.67068,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Slovakia",
+    "Time_Detail": 2015,
+    "Value": 72.28645,
+    "Schooling": "LOWSEC"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Slovenia",
+    "Time_Detail": 2015,
+    "Value": 95.17416,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "South Africa",
+    "Time_Detail": 2015,
+    "Value": 38.6466,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Spain",
+    "Time_Detail": 2015,
+    "Value": 93.49494,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Sri Lanka",
+    "Time_Detail": 2015,
+    "Value": 84.3,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "State of Palestine",
+    "Time_Detail": 2011,
+    "Value": 52.29067,
+    "Schooling": "LOWSEC"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Sweden",
+    "Time_Detail": 2015,
+    "Value": 94.57084,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Switzerland",
+    "Time_Detail": 2015,
+    "Value": 84.21991,
+    "Schooling": "LOWSEC"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Syrian Arab Republic",
+    "Time_Detail": 2011,
+    "Value": 43.20589,
+    "Schooling": "LOWSEC"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Thailand",
+    "Time_Detail": 2011,
+    "Value": 77.33531,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Togo",
+    "Time_Detail": 2014,
+    "Value": 41.2795,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Trinidad and Tobago",
+    "Time_Detail": 2015,
+    "Value": 47.74702,
+    "Schooling": "LOWSEC"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Tunisia",
+    "Time_Detail": 2011,
+    "Value": 34.47165,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Turkey",
+    "Time_Detail": 2015,
+    "Value": 69.90936,
+    "Schooling": "LOWSEC"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Uganda",
+    "Time_Detail": 2015,
+    "Value": 71.7,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Ukraine",
+    "Time_Detail": 2011,
+    "Value": 81.26318,
+    "Schooling": "LOWSEC"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "United Arab Emirates",
+    "Time_Detail": 2015,
+    "Value": 69.72751,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "United Kingdom of Great Britain and Northern Ireland",
+    "Time_Detail": 2015,
+    "Value": 78.13294,
+    "Schooling": "LOWSEC"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "United Republic of Tanzania",
+    "Time_Detail": 2015,
+    "Value": 35.05809,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "USA",
+    "Time_Detail": 2015,
+    "Value": 94.74096,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Uruguay",
+    "Time_Detail": 2013,
+    "Value": 75.44948,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Venezuela (Bolivarian Republic of)",
+    "Time_Detail": 2009,
+    "Value": 40.45205,
+    "Schooling": "LOWSEC"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Viet Nam",
+    "Time_Detail": 2015,
+    "Value": 80.89702,
+    "Schooling": "LOWSEC"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Yemen",
+    "Time_Detail": 2011,
+    "Value": 9.39027,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Zambia",
+    "Time_Detail": 2014,
+    "Value": 9,
+    "Schooling": "GRAD23"
+  },
+  {
+    "[Sex]": "BOTHSEX",
+    "[Type of skill]": "SKILL_MATH",
+    "GeoAreaName": "Zimbabwe",
+    "Time_Detail": 2007,
+    "Value": 73.45482,
+    "Schooling": "PRIMAR"
+  }
+]

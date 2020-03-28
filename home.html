@@ -1,0 +1,164 @@
+<html>
+    <head>
+    <title>4.1.1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="home.css">
+    <link href="//db.onlinewebfonts.com/c/3744d23a5fa29385168833eee4190625?family=Giorgio+Sans+Bold" rel="stylesheet" type="text/css"/>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="mathdata.json"></script>
+
+    </head>
+    
+    <body>
+    
+    <div class="topnav">
+        <a class="active" href="home.html">Home <i class="fa fa-home"></i></a>
+        <a href="about.html">About <i class="fa fa-send"></i></a>
+        <a href="content.html">Content <i class="fa fa-info-circle"></i></a>
+    
+  </div>
+       
+        <div class="header">
+        <h1>Quality Education</h1>
+        <p>Goal 4.1</p>
+        </div>
+        <div class="heading">
+        <h3>AN INTRODUCTION TO GOAL 4</h3>
+        </div>
+        <div class="row">
+  <div class="side">
+      <p>Goal 4, Quality Education is apart of a greater aim of the UN to ensure a sustainable future that is focused around the health, safety, and prosperity of every single person on the planet. As a specific Goal, Quality Education is extremely prioritized and will help to provide a substantial education for primary, secondary, and even collegient level students. <p>Being a child in present society, it is prioritized that every single one of them should have equal right and accessibility to some form of education that is able to transform their understanding in literature and maths to allow them to develop their own perspective on the real world around them. </p>
+    
+  </div>
+  <div class="right">
+    <p> Mainly, there are portions of our population that are not completing education. According to UN.org, 265 million children are out of school in developing countries. This admits 21% of all children into poverty. Education as a whole is crucial as it is a huge influence in determining many people's success and is important to have access to in order to make an impact on our world. <p>However, education often costs unaffordable money or either cannot be properly funded to incorporate proper teachers, resources, or facilities. As an organization, the UN and the greater population can collaborate to help the less fortunate children around the world, especially those within Sub-Saharan Africa that certainly deserve education. </p>
+    
+</div> 
+        </div>
+
+        <div class="row2">
+  <div class="logoimg">
+      <div class="imgcontainer">
+      <img src="logo.jpg" name="Goal">
+      </div>
+  </div>
+  <div class="search">
+      <div class="searchtitle"><h2>GLOBAL EDUCATION TRACKER</h2></div>
+    <h5>Search for over 100 countries and track where your country stands! Data taken from unstats.un.org displays the Proportion of primary education children and young people achieving a minimum profiency level mathematics (%). As an indication, the UN uses aspects of learning and education such as profiencies in mathemetics and literature in order to correctly illustrate the current educational state of countries around the world.</h5>
+      <div class="sbar">
+    
+  <input type="text" placeholder="Search Countries.." id="mysearch"><button onclick="goSearch()" id="btn"><i class="fa fa-search"></i></button>
+
+      </div>
+       <h4 id="results"></h4>
+</div> 
+        </div>
+        
+     <div class="row3">
+  <div class="fax">
+      <div class="faxtitle"><h6>QUICK FACTS</h6></div>
+      <div class="thefacts">
+      <h5>Browse through tons of surprising facts and statistics closely related to this issue!</h5>
+      <button class="collapsible" style="background-color: #f1f1f1";>What is our progress thus far?<i class='fas fa-angle-down' style='float:right'></i></button>
+<div class="content">
+  <p>Amongst developing countries or regions in most need of education due to uncontrollable factors, enrollment in primary schools has reached 91% to this date. Enormous progress has been made in order for the UN to be on track for their indicator goals by 2030. </p><p><img src="developing.png" id="develop">
+</div>
+<button class="collapsible" style="background-color: #ffcccc">What is left for us to do?<i class='fas fa-angle-down' style='float:right'></i></button>
+<div class="content">
+  <p> Although progress has been made, there is still a large quantity of children that remain out of school. Specifically, with a majority in Sub Saharan Africa, 57 million primary-aged children currently do not have access to school globally.<p><img src ="africa.png" id="african"></p>
+</div>
+<button class="collapsible" style="background-color: #f1f1f1";>Where does it affect the most people?<i class='fas fa-angle-down' style='float:right'></i></button>
+<div class="content">
+  <p>Although present around the world, educational issues are mostly impacting those in developing countries as nearly 1 in 4 girls are not attending school.</p>
+</div>
+<button class="collapsible" style="background-color: #ffcccc">What is the dominating factor that disallows children from accessing schools?<i class='fas fa-angle-down' style='float:right'></i></button>
+<div class="content">
+  <p> Globally, there are numerous factors that go towards the prevention of children attending schools, however, mainly, they are most influenced by violence that occurs close to their home as nearly 50% of all out of school children directly live inside conflict affected areas.<p><img src="violence.png" id="violence"></p>
+</div>
+<button class="collapsible" style="background-color: #f1f1f1";>What is the actual quality and educational value of the majority of schools?<i class='fas fa-angle-down' style='float:right'></i></button>
+<div class="content">
+  <p>Even with schools being free and accessible, there are still cases where children are not getting the correct resources, teachers, or facilities that contribute to healthy learning habits. This contributes to 103 million of the youth worldwide that lacks basic literacy skills. Of that quantity, more than 60% are women. </p><p><img src="book.png" id="book">
+</div>
+<button class="collapsible" style="background-color: #ffcccc">Intellectually, what level are the majority of children that attend school at?<i class='fas fa-angle-down' style='float:right'></i></button>
+<div class="content">
+  <p> Similarly, the children and adolescents that do attend schools are not only struggling at literacy. Evidently, 6 out of 10 children attending school are not achieving a minimum proficiency in both reading and math.</p>
+</div>
+      </div>
+      
+    
+  </div>
+  <div class="map">
+    <div class="maptitle"><h6>MAPPED DATA</h6></div>
+    <p>With data courtesy of unstats.un.org and managed using Google Sheets, very briefly, this interactive map gives an overview of the percentage of education eligible people that are attending school in select countries. Evidently, the issue of schooling and education in developing countries and Sub Saharan Africa is increasingly growing as communicated through the concentration of red countries.<p><iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR7SPZSIG6VruwQJulism3YDJ2DG7zltNJPBGi7A3oQYiv7yniL4F4YKxFwzw1aLgei2M0uaBJW3HBf/pubchart?oid=2044586233&amp;format=interactive"></iframe></p>
+    
+</div> 
+        </div>    
+        <canvas id="mycanvas" width="1000" height="2" style="border:0px solid black; padding-left: 15px;"></canvas>
+    <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>
+
+
+<script>
+    
+    
+     enterkey = document.getElementById("mysearch")   
+    enterkey.addEventListener('keyup', function(event) {
+  if (event.keyCode === 13) {
+    goSearch();
+  }
+});
+    
+    
+ function goSearch() {
+        
+        
+        
+        var myinput = document.getElementById("mysearch").value;
+        var resultsdiv = document.getElementById("results");
+        var newstring = ""
+        
+         var c = document.getElementById("mycanvas");
+         var ctx = c.getContext('2d');
+        
+       
+        for (country=0; country < data.length; country++) {
+            if (myinput == data[country].GeoAreaName) {
+                
+               
+                  
+                newstring = "In " + data[country].Time_Detail + ", " + data[country].GeoAreaName + " had " + data[country].Value + "% of all children achieve a minimum profiency in Mathematics.";
+                break;
+            }
+            
+        }
+        
+        if (newstring == "") {alert("An Error Occurred! We could not find " + myinput + " in our dataset. Try: Entering another country or Reassuring the correct capitalizations are used") }
+        resultsdiv.innerHTML = newstring;
+    }        
+     var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}   
+    
+    
+</script>
+
+    
+    </body>
+
+    
+
+
+
+</html>

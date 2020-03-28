@@ -1,0 +1,84 @@
+<html>
+    <head>
+    <title>4.1.1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="mathdata.json"></script>
+
+    </head>
+    
+    <body>
+    
+ 
+
+    <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>
+        <div class="slideshow-container">
+
+<div class="mySlides fade">
+  
+  <img src="image1.jpg" style = "height:400px">
+  <div class="text">Quality Education.</div>
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="image2.png" style = "height:400px">
+  <div class="text">Educating the Future.</div>
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="image3.jpg" style = "height:400px">
+  <div class="text">Saving the World.</div>
+</div>
+
+</div>
+        <a class="continue" href="home.html">Continue <i class="fa fa-angle-double-right"></i></a>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>   
+   <div id="blank"></div>
+    
+    
+
+   <script>
+    var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+    
+     
+    </script>
+
+    </body>
+
+</html>

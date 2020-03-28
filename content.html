@@ -1,0 +1,407 @@
+<html>
+    <head>
+    <title>4.1.1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="content.css">
+    <link href="//db.onlinewebfonts.com/c/3744d23a5fa29385168833eee4190625?family=Giorgio+Sans+Bold" rel="stylesheet" type="text/css"/>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="mathdata.json"></script>
+
+    </head>
+    
+    <body>
+    
+    <div class="topnav">
+        <a href="home.html">Home <i class="fa fa-home"></i></a>
+        <a href="about.html">About <i class="fa fa-send"></i></a>
+        <a class = "active" href="content.html">Content <i class="fa fa-info-circle"></i></a>
+
+  </div>
+       
+        <div class="header">
+        <h1>Content</h1>
+        <p>Goal 4.1</p>
+        </div>
+        <div class="heading">
+        <h3>WHAT IS TARGET 4.1</h3>
+        </div>
+        <div class="row">
+  <div class="side">
+      <div class="goalimg">
+ 
+
+  <img src="imagetarget.png">
+</div>
+    
+  </div>
+  <div class="main">
+      <h2> Free Primary and Secondary Education </h2>
+        <br><br><br><h4>"By 2030, ensure that all girls and boys complete free, equitable and quality primary and secondary education leading to relevant and effective learning outcomes."</h4> <p class="des">Target 4.1 focusses on ensuring that children have access to free education in primary and secondary schooling and are enabled to successfully compete its education. This goal is indicated by the amount of students that reach minimum proficiencies in both literature and math. Also, it is important that the UN recognizes the known and unknown places highly concentrated with children without education to help ensure their completion of 4.1. Next, It is also important to know why this is an issue around the world.</p>
+    
+</div> 
+        </div>
+<div class="heading2">
+        <h3>COMPARE WORLDWIDE DATA</h3>
+        </div>
+<div class="instructions">
+        <p>Although the UN strives to ensure Quality Education everywhere in the world and are well on their way to their goal, there are still countries that are significantly more fortunate as their students are significantly more successful in school. Below you can search over 100 countries' data to find what percentage of students are achieving a minimum proficiency in Math.<br>Please Note that there are still countries whose data we do not have access to whose data will not be displayed when searched and compared below.</p>
+        </div>
+        <div class="row2">
+  <div class="leftsearch">
+      
+      <div class="sbar1">
+      
+          <input type="text" placeholder="Search Countries.." id="search"><button onclick="gotoSearch()" id="btn2"><i class="fa fa-search"></i></button>
+          
+      </div>
+      <div class="canvascontain1">
+
+          <canvas id="canvas" width="600" height="110" style="border:0.5px solid darkgray; padding-left: 15px;"></canvas></div>
+      <h4 id="results1"></h4>
+  </div>
+        
+  <div class="search">
+      
+      <div class="sbar">
+    
+  <input type="text" placeholder="Search Countries.." id="mysearch"><button onclick="goSearch()" id="btn"><i class="fa fa-search"></i></button>
+
+      </div>
+      <div class="canvascontain">
+
+          <canvas id="mycanvas" width="600" height="110" style="border:0.5px solid darkgray; padding-left: 15px;"></canvas></div>
+       <h4 id="results"></h4>
+</div> 
+        </div>
+        
+     <div class="row3">
+  
+      <div class="issue"><h6>WHY IS THIS A PROBLEM?</h6></div>
+         <p class="prob">The only way to overcome this prolonging issue in our world today is to eliminate the factors that prevent children from accessing free primary and secondary education as stated in Goal 4.1.1. To do this we must ask ourselves Why is this a Problem or What Obstacles are in the children's way and make it hard for them and their families to send them to school. By clicking on each button below, you are able to browse through 5 of the main reasons why free education may be difficult to achieve in struggling regions. </p>
+      <div class="thebuttons">
+          
+    <p><button onclick="dis1()" id="button"></button><button onclick="dis2()" id="button2"></button><button onclick="dis3()" id="button3"></button><button onclick="dis4()" id="button4"></button><button onclick="dis5()" id="button5"></button></p>
+        
+      </div>
+      <h4 id="body1"></h4>
+        <div class="infocontain">
+      <p id="info"></p>
+            </div>
+         
+    
+
+  
+        </div>
+        <div class="datatitle"><h6 class="dtext">MODELLED DATA AROUND THE WORLD</h6></div>
+        <div class="datatext"><p>In order to accomplish Target 4.1.1 by 2030, we need to know what is left to do and where we must direct most of our attention towards so we can provide them with the most support for primary and secondary schools. In some places education is not an issue while at others, it is a huge issue. As a representation of this, the education data of a particularily good country such as Canada is compared to the education system of Colombia as it progressed through the years as a country lacking quality education. Colombia in particular is a country that the UN recognizes as a particularily less fortunate country. The Figure below shows the percentage of children in primary and secondary schooling achieving a minimum proficiency in reading. As shown, we have made progress through the years, however, a significant chunk of work still needs to be done.</p></div>
+        <div class="canvasframe">
+         <canvas id="datacanvas" width="600" height="300" style="border:0.5px solid darkgray;"></canvas>
+        </div>
+
+        
+<script>
+
+    var c = document.getElementById("canvas");
+    var ctx = c.getContext('2d');
+    
+    ctx.fillStyle = "red";
+    ctx.fillRect(10,25, 500,50);
+    
+    ctx.fillStyle = "white";
+    ctx.font = "13pt Times";
+    ctx.fillText('Please Enter a Country Above...', 20,58);
+    
+    var c = document.getElementById("mycanvas");
+    var ctx = c.getContext('2d');
+    
+    ctx.fillStyle = "red";
+    ctx.fillRect(10,25, 500,50);
+    
+    ctx.fillStyle = "white";
+    ctx.font = "13pt Times";
+    ctx.fillText('Please Enter a Country Above...', 20,58);
+    
+    
+    var c = document.getElementById("datacanvas");
+    var ctx = c.getContext('2d');
+    
+     ctx.beginPath();
+     ctx.moveTo(50, 50);
+     ctx.lineTo(50, 250);
+     ctx.strokeStyle = "darkgray";
+     ctx.stroke();
+    
+     ctx.beginPath();
+     ctx.moveTo(50, 250);
+     ctx.lineTo(500, 250);
+     ctx.strokeStyle = "darkgray";
+     ctx.stroke();
+    
+     ctx.beginPath();
+     ctx.moveTo(45, 50);
+     ctx.lineTo(55, 50);
+     ctx.strokeStyle = "darkgray";
+     ctx.stroke();
+    
+     ctx.beginPath();
+     ctx.moveTo(45, 150);
+     ctx.lineTo(55, 150);
+     ctx.strokeStyle = "darkgray";
+     ctx.stroke();
+    
+     ctx.beginPath();
+     ctx.moveTo(45, 100);
+     ctx.lineTo(55, 100);
+     ctx.strokeStyle = "darkgray";
+     ctx.stroke();
+    
+     ctx.beginPath();
+     ctx.moveTo(45, 200);
+     ctx.lineTo(55, 200);
+     ctx.strokeStyle = "darkgray";
+     ctx.stroke();
+    
+     ctx.fillStyle='darkgray'
+     ctx.font = "10px Arial";
+     ctx.fillText("0%", 23, 260);
+     ctx.fillText("25%", 20, 203);
+     ctx.fillText("50%", 20, 153);
+     ctx.fillText("75%", 20, 103);
+     ctx.fillText("100%", 17, 53);
+     ctx.fillText("2006", 94, 270);
+     ctx.fillText("2009",205, 270);
+     ctx.fillText("2012",312, 270);
+     ctx.fillText("2015",419, 270);
+     ctx.fillText("Colombia",490, 58);
+     ctx.fillText("Canada",490, 73);
+     ctx.font = "12px Arial";
+     ctx.fillText("Percentage of Children in Primary and Secondary School Achieving a Minimum Proficiency in Reading",10, 30);
+    
+     ctx.fillStyle = "red";
+     ctx.fillRect(75,80, 30,170);
+     
+     ctx.fillStyle = "blue";
+     ctx.fillRect(110,162, 30,88);
+     
+     ctx.fillStyle = "red";
+     ctx.fillRect(183.3,72, 30,178);
+     
+     ctx.fillStyle = "blue";
+     ctx.fillRect(218.3,146, 30,104);
+     
+     ctx.fillStyle = "red";
+     ctx.fillRect(291.6,62, 30,188);
+    
+     ctx.fillStyle = "blue";
+     ctx.fillRect(326.6,144, 30,106);
+     
+     ctx.fillStyle = "red";
+     ctx.fillRect(400,64, 30,186);
+     
+     ctx.fillStyle = "blue";
+     ctx.fillRect(475,50, 10,10);
+     
+     ctx.fillStyle = "red";
+     ctx.fillRect(475,65, 10,10);
+    
+     ctx.fillStyle = "blue";
+     ctx.fillRect(434.9,120, 30,130);
+    
+    enterkey = document.getElementById("search")   
+    enterkey.addEventListener('keyup', function(event) {
+  if (event.keyCode === 13) {
+    gotoSearch();
+  }
+});
+
+ function gotoSearch() {
+        
+        
+        
+        var myinput = document.getElementById("search").value;
+        var resultsdiv = document.getElementById("results");
+        var newstring = ""
+        
+        
+        
+         var c = document.getElementById("canvas");
+         var ctx = c.getContext('2d');
+        
+       
+        for (country=0; country < data.length; country++) {
+            if (myinput == data[country].GeoAreaName) {
+                var number = Math.round(data[country]["Value"]);
+               ctx.clearRect(0,0,1000,200);
+                
+                
+                ctx.fillStyle = "red";
+                ctx.fillRect(10,25, data[country]["Value"] * 5,50);
+                ctx.fillStyle = "white";
+                ctx.font = "15pt Times";
+                ctx.fillText(data[country]['GeoAreaName'], 20,58);
+               
+                ctx.beginPath();
+                ctx.moveTo(13, 100);
+                ctx.lineTo(13, 110);
+                ctx.strokeStyle = "darkgray";
+                ctx.stroke();
+                ctx.moveTo(508, 100);
+                ctx.lineTo(508, 110);
+                ctx.strokeStyle = "darkgray";
+                ctx.stroke();
+                ctx.moveTo(256, 100);
+                ctx.lineTo(256, 110);
+                ctx.strokeStyle = "darkgray";
+                ctx.stroke();
+                ctx.fillStyle='darkgray'
+                ctx.font = "10px Arial";
+                ctx.fillText("0%", 8, 95);
+                ctx.fillStyle='darkgray'
+                ctx.font = "10px Arial";
+                ctx.fillText("50%", 248, 95);
+                ctx.fillStyle='darkgray'
+                ctx.font = "10px Arial";
+                ctx.fillText("100%", 496, 95);
+                c.addEventListener("mouseover", hover1, false);  
+                c.addEventListener("mouseout", hoverout, false);
+                newstring = "In " + data[country].Time_Detail + ", " + data[country].GeoAreaName + " had " + data[country].Value + "% of all children achieve a minimum profiency in Mathematics.";
+                break;
+                
+                
+            }
+            
+        }
+        
+        if (newstring == "") {alert("An Error Occurred! We could not find " + myinput + " in our dataset. Try: Entering another country or Reassuring the correct capitalizations are used") }
+        resultsdiv.innerHTML = newstring;
+    } 
+    
+    
+    enterkey = document.getElementById("mysearch")   
+    enterkey.addEventListener('keyup', function(event) {
+  if (event.keyCode === 13) {
+    goSearch();
+  }
+});
+ function goSearch() {
+        
+        
+        
+        var myinput = document.getElementById("mysearch").value;
+        var resultsdiv = document.getElementById("results");
+        var newstring = ""
+        
+        
+        
+         var c = document.getElementById("mycanvas");
+         var ctx = c.getContext('2d');
+        
+       
+        for (country=0; country < data.length; country++) {
+            if (myinput == data[country].GeoAreaName) {
+                var number = Math.round(data[country]["Value"]);
+               ctx.clearRect(0,0,1000,200);
+                
+                
+                ctx.fillStyle = "red";
+                ctx.fillRect(10,25, data[country]["Value"] * 5,50);
+                ctx.fillStyle = "white";
+                ctx.font = "15pt Times";
+                ctx.fillText(data[country]['GeoAreaName'], 20,58);
+               
+                ctx.beginPath();
+                ctx.moveTo(13, 100);
+                ctx.lineTo(13, 110);
+                ctx.strokeStyle = "darkgray";
+                ctx.stroke();
+                ctx.moveTo(508, 100);
+                ctx.lineTo(508, 110);
+                ctx.strokeStyle = "darkgray";
+                ctx.stroke();
+                ctx.moveTo(256, 100);
+                ctx.lineTo(256, 110);
+                ctx.strokeStyle = "darkgray";
+                ctx.stroke();
+                ctx.fillStyle='darkgray'
+                ctx.font = "10px Arial";
+                ctx.fillText("0%", 8, 95);
+                ctx.fillStyle='darkgray'
+                ctx.font = "10px Arial";
+                ctx.fillText("50%", 248, 95);
+                ctx.fillStyle='darkgray'
+                ctx.font = "10px Arial";
+                ctx.fillText("100%", 496, 95);
+                c.addEventListener("mouseover", hover, false);  
+                c.addEventListener("mouseout", hoverout, false);
+                newstring = "In " + data[country].Time_Detail + ", " + data[country].GeoAreaName + " had " + data[country].Value + "% of all children achieve a minimum profiency in Mathematics.";
+                break;
+                
+                
+            }
+
+            
+        }
+        
+        if (newstring == "") {alert("An Error Occurred! We could not find " + myinput + " in our dataset. Try: Entering another country or Reassuring the correct capitalizations are used") }
+        resultsdiv.innerHTML = newstring;
+    }        
+     
+   
+ function hover(e){
+     var number = Math.round(data[country]["Value"]);
+     var c=document.getElementById("mycanvas");
+     var ctx=c.getContext("2d")
+     
+     ctx.fillStyle = 'darkgray';
+     ctx.font = "12pt times";
+     ctx.fillText(number + "%", 550, 58);
+     
+ } 
+
+    function hover1(e){
+     var number = Math.round(data[country]["Value"]);
+     var c=document.getElementById("canvas");
+     var ctx=c.getContext("2d")
+     
+     ctx.fillStyle = 'darkgray';
+     ctx.font = "12pt times";
+     ctx.fillText(number + "%", 550, 58);
+     
+ } 
+
+function dis1(){
+    var text = document.getElementById("body1")
+    var information = document.getElementById("info")
+    text.innerHTML = 'Lack of Funding'
+    information.innerHTML = 'Many developing countries are unable to provide for their citizens and struggle to provide Quality Education because of lack of funding as there is not much foreign aid. In developing countries it costs $1.25 per day to send a child to school for at least 13 years.'
+}
+function dis2(){
+    var text = document.getElementById("body1")
+    var information = document.getElementById("info")
+    text.innerHTML = "No Qualified Teacher"
+    information.innerHTML = ' Teachers are one of the major factors that define quality education and without a qualified one, learning can become challenging for all students. As of now, there are 130 million children in schools who do not have access to teachers who teach proper reading, math, and writing. In order to achieve this SDGs goal, there must be a minimum of 69 million more qualified teachers in the world that are able to teach in primary and/or secondary schooling.'
+}
+function dis3(){
+var text = document.getElementById("body1")
+var information = document.getElementById("info")
+text.innerHTML = "No Classroom"
+information.innerHTML = "A classroom or a substantial environment is vital to a descent education. For example, children in sub-Saharan Africa are provided classrooms that are unable to fit the school's capacity and are often in terrible condition. Furthermore, not only classrooms are damaged, but toilets are damaged, along with a lack of clean water. Toilets and clean water is harder to achieve in countries such as, Chad where 1 in 7 have potable water (drinking water)."
+}
+function dis4(){
+var text = document.getElementById("body1")
+var information = document.getElementById("info")
+text.innerHTML = "Wrong Gender"
+information.innerHTML = "Again, although gender equality is important in our modern society and despite the recent advances in girls' education, at least 132 million girls are not participating in school. A reason for this is that many families are currently in poverty and are unable to send every child to school. Because of this, they have the choice of who they send to school. Often, families will send the boy to school instead of the girl because of the belief that girls' education is far less important than a boy's. Achieving the UN's other SDGs of gender equality and no poverty will aide completion to this goal as well."
+}
+function dis5(){
+var text = document.getElementById("body1")
+var information = document.getElementById("info")
+text.innerHTML = "Living in a Country of Conflict" 
+information.innerHTML = "With large scale conflicts within a country, education systems are often destroyed. This is a huge issue because 250 million children live in places where there are these large scale conflicts. Out of that 250 million, 61 million are not attending school. Students are often kept out of school because usually, conflicts affect how government run as many teachers and students flee their homes due to the danger that is located near them."
+}
+</script>
+
+    
+    </body>
+
+</html>

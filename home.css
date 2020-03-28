@@ -1,0 +1,397 @@
+@import url(//db.onlinewebfonts.com/c/3744d23a5fa29385168833eee4190625?family=Giorgio+Sans+Bold);
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10;
+    background-color: #f1f1f1;
+}
+
+
+.header {
+  padding-top: 100px;
+  padding-bottom: 50px;    
+  text-align: center;
+  background: #c5192d;
+  color: white; 
+  font-family: "Giorgio Sans Bold";   
+
+}
+
+.right h2 {
+    color: #990000;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+    
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+  position: fixed;
+  width: 1450px;
+  transition: 0.4s;    
+  
+
+  
+    
+
+}
+
+.topnav a {
+  float: left;
+  overflow: hidden;
+  font-family: 'Roboto';
+  color: black;
+  text-align: center;
+  padding: 16px 18px;
+  text-decoration: none;
+  font-weight: 85;
+  font-size: 15px;
+  border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  transition: all 0.5s;
+  cursor: pointer;
+  border-bottom: 3px solid red;
+  border-radius: 8px; 
+}
+
+
+
+.topnav a.active {
+  background-color: #c5192d;
+  color: white;
+}
+
+.heading {
+    margin: auto;
+    padding-top: 30px;
+    display: inline-block;
+    position: relative;
+    letter-spacing:3px;
+    left: 36.75%;
+    font-family: "Giorgio Sans Bold";
+    font-weight: 900;
+}
+.heading::after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 2px;
+    bottom: 0;
+    left: 25%;
+    border-bottom: 1px solid red;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+h2 {
+    font-size: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+* {
+  box-sizing: border-box;
+}
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+
+
+.side {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+  background-color: white;
+  padding: 20px;
+  background-color: #fafafa;
+}
+
+
+.right {   
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+  background-color: white;
+  padding: 20px;
+  background-color: #fafafa;
+}
+
+p {
+  font-family: "Giorgio Sans Light";
+    font-size: 15px;
+    line-height: 30px;
+    padding: 10px;
+    padding-left: 20px;
+}
+.row2 {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+
+.logoimg {
+  -ms-flex: 35%; /* IE10 */
+  flex: 35%;
+  background-color: white;
+  padding: 20px;
+  background-color: #fafafa;
+  padding-left: 70px;
+  background-color: #f1f1f1;
+}
+
+.imgcontainer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.searchtitle {
+    background-color: #f1f1f1;
+    margin: auto;
+    padding-top: 30px;
+    display: inline-block;
+    position: relative;
+    letter-spacing:3px;
+    left: 32%;
+    font-family: "Giorgio Sans Bold";
+    font-weight: 900;
+}
+.searchtitle::after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 2px;
+    bottom: 0;
+    left: 25%;
+    border-bottom: 1px solid red;
+}
+.search {   
+  -ms-flex: 65%; /* IE10 */
+  flex: 65%;
+  background-color: white;
+  padding: 20px;
+  background-color: #f1f1f1;
+  width: 150px;
+}
+
+h5 {
+  font-family: "Giorgio Sans Light";
+    font-size: 15px;
+    line-height: 30px;
+    padding: 10px;
+    padding-left: 65px;
+    letter-spacing: 0.5;
+    font-weight: 300;
+}
+input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 12px;
+  background-color: white;
+  padding: 12px 10px 12px 10px;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 50%;
+}
+.sbar {
+    text-align: center;
+    width: 895px;
+}
+h4 {
+  font-family: "Giorgio Sans Light";
+    font-size: 20px;
+    line-height: 40px;
+    padding-left: 65px;
+    letter-spacing: 1.5;
+    font-weight: 100;
+    
+}
+#btn {
+  padding: 11px 14px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+#btn:hover {
+  background: #ccc;
+}
+
+.row3 {  
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+  padding-top: 30px;
+  
+}
+
+
+.fax {
+  -ms-flex: 50%; 
+  flex: 50%;
+  background-color: white;
+  padding: 20px;
+  background-color: #fafafa;
+}
+
+
+.map {   
+  -ms-flex: 50%; 
+  flex: 50%;
+  background-color: white;
+  padding: 20px;
+  background-color: #fafafa;
+}
+.faxtitle {
+    background-color: #fafafa;
+    margin: auto;
+    padding-top: 10px;
+    display: inline-block;
+    position: relative;
+    letter-spacing:3px;
+    left: 40%;
+    font-family: "Giorgio Sans Bold";
+    font-weight: 900;
+}
+.faxtitle::after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 2px;
+    bottom: 15;
+    left: 25%;
+    border-bottom: 1px solid red;
+    padding-bottom: 15px;
+}
+h6 {
+    font-size: 16px;
+    text-align: center;
+    background-color: #fafafa;
+}
+.collapsible {
+  background-color: #777;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 20;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #fafafa;
+}
+#imig{
+    float: right;
+}
+
+#develop{
+    left: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#african{
+    left: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150;
+}
+#violence{
+    left: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350;
+}
+#book{
+    left: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200;
+}
+.maptitle {
+    background-color: #fafafa;
+    margin: auto;
+    padding-top: 10px;
+    display: inline-block;
+    position: relative;
+    letter-spacing:3px;
+    left: 40%;
+    font-family: "Giorgio Sans Bold";
+    font-weight: 900;
+}
+.maptitle::after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 2px;
+    bottom: 15;
+    left: 25%;
+    border-bottom: 1px solid red;
+    padding-bottom: 15px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+img.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 175px;
+}
+
